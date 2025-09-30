@@ -42,4 +42,4 @@ include("PS3_USMAN_SOURCE.jl")   # Load your functions
         @test isapprox(sum(p), 1.0; atol=1e-8)     # probs sum to 1
         @test all(p .>= 0.0)                       # non-negative
     end
-end
+end  

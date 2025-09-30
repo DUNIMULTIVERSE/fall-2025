@@ -119,7 +119,7 @@ function nested_logit_with_Z(theta, X, Z, y, nesting_structure)
             # num[:,j] = lidx[:,j]
         end
         # dem .+= num[:,j]
-    end
+end
     
     # Fill in: compute probabilities and log-likelihood
     # P = num ./ repeat(dem, 1, J)
